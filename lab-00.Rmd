@@ -21,7 +21,7 @@ team_data <- tibble(
            "elaine", "caitlin","karis"),
   github_username = c("elliehuntt", "johnwatson-06", "lenaartus", 
                       "elaine-cyl", "cb0wman2", "karismcfarlane"),
-  colour = c("blue", "royalblue", "pink", 
+  colour = c("turquoise2", "royalblue", "pink", 
              "lightpink", "powderblue", "maroon"),
   hobby = c("cooking", "tennis", "running", 
             "travelling", "swimming", "sleeping"),
