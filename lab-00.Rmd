@@ -40,14 +40,16 @@ p1 <- ggplot(data = team_data,
              mapping = aes(x = github_username, 
                            y = favourite_number,
                            fill = colour), 
-             ) +
+             ) + labs(x = "\n Github Username", 
+          y = "Favourite Number \n",
+          title = "Bar Plot") +
    geom_col() +
    scale_fill_identity()
 p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+bar plot showing our favourite numbers in our favourite colours
 
 ### Exercises 19
 
@@ -59,7 +61,7 @@ p1 + labs(x = "Insert text here",
           title = "Insert text here")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+adds labels
 
 ### Exercise 20
 
@@ -69,4 +71,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+Everyone has a different hobby so the count for all is 1. If we were to extend the bar plot for everyone taking the course we would give several options for people to choose their prefered hobby from (or there would be too many bars).
